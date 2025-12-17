@@ -12,9 +12,14 @@ const app = express();
 
 // ✅ CORS (added only)
 app.use(cors({
-  origin: "*",
-  methods: ["GET", "POST", "PUT", "DELETE"]
+  origin: [
+    "http://localhost:5173",
+    "https://school-company-request-donation-xua.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
 }));
+
 
 // Middleware
 app.use(express.json());
