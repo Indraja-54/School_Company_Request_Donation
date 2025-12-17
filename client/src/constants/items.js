@@ -1,0 +1,51 @@
+export const ITEM_OPTIONS = [
+  "Books",
+  "Notebooks",
+  "Stationery",
+  "School Bags",
+  "Uniforms",
+  "Shoes",
+
+  "Laptops",
+  "Desktops",
+  "Tablets",
+  "Projectors",
+  "Smart Boards",
+  "Printers",
+  "Scanners",
+  "UPS",
+  "WiFi Routers",
+  "CCTV Cameras",
+
+  "Physics Lab Equipment",
+  "Chemistry Lab Equipment",
+  "Biology Lab Equipment",
+  "Microscopes",
+  "Lab Glassware",
+  "Lab Chemicals",
+  "Safety Goggles",
+
+  "Benches",
+  "Desks",
+  "Chairs",
+  "Blackboards",
+  "Whiteboards",
+  "Notice Boards",
+  "Cupboards",
+  "Shelves",
+
+  "Cricket Kits",
+  "Football",
+  "Volleyball",
+  "Badminton Kits",
+  "Sports Nets",
+  "Skipping Ropes",
+
+  "Sanitizers",
+  "First Aid Kits",
+  "Face Masks",
+  "Water Purifiers",
+  "Dustbins",
+
+  "Other", // 👈 ALWAYS KEEP THIS
+];
