@@ -4,7 +4,7 @@ export const donationApi = createApi({
   reducerPath: "donationApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "/api/donations",
+    baseUrl: `${import.meta.env.VITE_API_BASE_URL}/api/donations`,
     prepareHeaders: (headers, { getState }) => {
       const token = getState().auth.token;
       if (token) {

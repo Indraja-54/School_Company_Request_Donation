@@ -4,7 +4,7 @@ export const authApi = createApi({
   reducerPath: "authApi",
 
   baseQuery: fetchBaseQuery({
-    baseUrl: "/api/auth",
+    baseUrl: `${import.meta.env.VITE_API_BASE_URL}/api/auth`,
     prepareHeaders: (headers, { getState }) => {
       const token = getState()?.auth?.token
       if (token) {
